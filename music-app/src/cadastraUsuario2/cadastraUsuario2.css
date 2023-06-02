@@ -1,0 +1,46 @@
+.bgCadastro{
+    background-image: url("https://i.imgur.com/zhMRQVX.png");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#box2{
+    display: flex;
+    margin-top: 0.5em;
+}
+section .input-campo{
+    margin: 1em;
+}
+.input-campo label{
+    margin-bottom: 0.5em;
+}
+.opGenero{
+    margin-right: 1em;
+}
+#imgcu{
+    margin-left: 3.8em;
+}
+.botao2{
+    margin-top: 2rem;
+  padding: 0.4rem;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 300;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+.container{
+    margin-top: 4rem;  
+}

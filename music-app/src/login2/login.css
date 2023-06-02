@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#imagemlogo{
+  width: 15%;
+}
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+main.bgLogin {
+  background-image: url('https://i.imgur.com/zhMRQVX.png');
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.container {
+  background-color: white;
+  width: 500px;
+  min-height: 40vh;
+  padding: 0.5rem;
+  box-shadow: 5px 5px 15px black;
+  border-radius: 18px;
+  color: white;
+}
+.containerMenor {
+  background-color: #545482;
+  padding: 2rem;
+  border-radius: 18px;
+}
+
+div h2 {
+  font-weight: 600;
+  margin-bottom: 2rem;
+  position: relative;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  padding: 0.7em;
+  border-radius: 4px;
+}
+form .input-campo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+form .input-campo:first-child {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.input-campo input {
+  outline: none;
+  font-size: 0.9rem;
+  color: black;
+}
+.input-campo input::placeholder {
+  color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.5);
+}
+
+.botao {
+  margin-top: 2rem;
+  padding: 0.4rem;
+  background-color: #492dea;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  width: 100%;
+  font-weight: bold;
+
+}
+
+.botao:hover {
+  letter-spacing: 0.7px;
+  background-color: #FB9A71;
+}
+
+.botao2{
+  margin-top: 2rem;
+  padding: 0.4rem;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 300;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  width: 100%;
+
+}
+.botao:first-child {
+  margin-bottom: 2em;
+}
+#txt {
+  font-size: 12px;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: -20px;
+}

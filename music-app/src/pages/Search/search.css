@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: center;
+    border-bottom: 1px solid #000;
+}
+
+.form {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.form button {
+    width: auto;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.content_second {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: center;
+    flex-wrap: wrap;
+}
+
+.container_search {
+    width: calc(100% - 70%);
+    height: 400px;
+    margin: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-size: 20px;
+}
+
+.container_block {
+    display: block;
+    margin: 5%;
+    margin-left: 9%;
+    width: 310px;
+}
+
+.artist {
+    height: 300px;
+}
+
+.song_img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
+}
+
+.audio {
+    margin-left: 1%;
+}
+
